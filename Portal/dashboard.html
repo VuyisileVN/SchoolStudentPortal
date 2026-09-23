@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Student Portal - Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylePortal.css">
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header>
+
+        <h1>School Student Portal</h1>
+
+        <p id="welcomeMessage">
+            Welcome, Student
+        </p>
+
+    </header>
+
+
+    <!-- ==========================================
+         NAVIGATION
+    =========================================== -->
+
+    <nav>
+
+        <a href="dashboard.html">
+            Dashboard
+        </a>
+
+        <a href="#profile">
+            My Profile
+        </a>
+
+        <a href="#courses">
+            My Courses
+        </a>
+
+        <a href="#assignments">
+            Assignments
+        </a>
+
+        <a href="#results">
+            Results
+        </a>
+
+        <a href="#" id="logoutButton">
+            Logout
+        </a>
+
+    </nav>
+
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <main>
+
+
+        <!-- ======================================
+             DASHBOARD
+        ======================================= -->
+
+        <section class="dashboard">
+
+            <h2>Student Dashboard</h2>
+
+            <p>
+                Welcome to your student dashboard.
+                Here you can view your academic information.
+            </p>
+
+        </section>
+
+
+        <!-- ======================================
+             PROFILE
+        ======================================= -->
+
+        <section id="profile">
+
+            <h2>My Profile</h2>
+
+            <p>
+                <strong>Name:</strong>
+                <span id="studentName">
+                    Loading...
+                </span>
+            </p>
+
+            <p>
+                <strong>Student Number:</strong>
+                <span id="studentNumber">
+                    Loading...
+                </span>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <span id="studentEmail">
+                    Loading...
+                </span>
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                <span id="studentPhone">
+                    Loading...
+                </span>
+            </p>
+
+            <p>
+                <strong>Course:</strong>
+                <span id="studentCourse">
+                    Loading...
+                </span>
+            </p>
+
+            <p>
+                <strong>Year:</strong>
+                <span id="studentYear">
+                    Loading...
+                </span>
+            </p>
+
+        </section>
+
+
+        <!-- ======================================
+             COURSES
+        ======================================= -->
+
+        <section id="courses">
+
+            <h2>My Courses</h2>
+
+            <ul>
+
+                <li>
+                    Internet Programming
+                </li>
+
+                <li>
+                    Database Systems
+                </li>
+
+                <li>
+                    Operating Systems
+                </li>
+
+                <li>
+                    Software Engineering
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ======================================
+             ASSIGNMENTS
+        ======================================= -->
+
+        <section id="assignments">
+
+            <h2>Assignments</h2>
+
+            <ul>
+
+                <li>
+                    Internet Programming Assignment
+                    -
+                    <strong>Pending</strong>
+                </li>
+
+                <li>
+                    Database Assignment
+                    -
+                    <strong>Completed</strong>
+                </li>
+
+                <li>
+                    Operating Systems Assignment
+                    -
+                    <strong>Pending</strong>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ======================================
+             RESULTS
+        ======================================= -->
+
+        <section id="results">
+
+            <h2>Academic Results</h2>
+
+            <ul>
+
+                <li>
+                    Internet Programming:
+                    <strong>78%</strong>
+                </li>
+
+                <li>
+                    Database Systems:
+                    <strong>72%</strong>
+                </li>
+
+                <li>
+                    Operating Systems:
+                    <strong>68%</strong>
+                </li>
+
+                <li>
+                    Software Engineering:
+                    <strong>81%</strong>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ======================================
+             ANNOUNCEMENTS
+        ======================================= -->
+
+        <section id="announcements">
+
+            <h2>Announcements</h2>
+
+            <p>
+                📢 Semester test registration is now open.
+            </p>
+
+            <p>
+                📢 Please check your assignment deadlines.
+            </p>
+
+            <p>
+                📢 Students are reminded to check their
+                academic results.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 School Student Portal.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script src="loggedIn.js"></script>
+
+</body>
+
+</html>

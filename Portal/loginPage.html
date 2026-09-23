@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Student Portal - Login</title>
+ <link rel="stylesheet" href="stylePortal.css">
+
+</head>
+
+<body>
+
+
+<!-- Header -->
+<header>
+
+    <h1>School Student Portal</h1>
+
+    <p>Student Login</p>
+
+</header>
+
+
+<!-- Navigation -->
+<nav>
+
+    <a href="index.html">Register</a>
+
+    <a href="loginPage.html">Login</a>
+
+    <a href="index.html#about">About</a>
+
+    <a href="index.html#contact">Contact</a>
+
+</nav>
+
+
+<!-- Main Content -->
+<main>
+
+    <section>
+
+        <h2>Student Login</h2>
+
+        <p>
+            Please enter your username and password
+            to access the student portal.
+        </p>
+
+
+        <!-- Login Form -->
+        <form id="loginForm">
+
+            <!-- Username -->
+            <label for="loginUsername">
+                Username:
+            </label>
+
+            <br>
+
+            <input
+                type="text"
+                id="loginUsername"
+                name="loginUsername"
+                placeholder="Enter your username"
+                required
+            >
+
+            <br><br>
+
+
+            <!-- Password -->
+            <label for="loginPassword">
+                Password:
+            </label>
+
+            <br>
+
+            <input
+                type="password"
+                id="loginPassword"
+                name="loginPassword"
+                placeholder="Enter your password"
+                required
+            >
+
+            <br><br>
+
+
+            <!-- Login Button -->
+            <button type="submit" onclick="loginForm()">
+                Login
+            </button>
+
+            <button type="reset">
+                Clear
+            </button>
+
+        </form>
+
+
+        <br>
+
+
+        <!-- Registration Link -->
+        <p>
+            Don't have an account?
+
+            <a href="firstPage.html">
+                Register here
+            </a>
+        </p>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <p>
+        &copy; 2026 School Student Portal.
+        All rights reserved.
+    </p>
+
+</footer>
+
+
+<!-- JavaScript -->
+<script src="login.js"></script>
+
+
+</body>
+
+</html>
